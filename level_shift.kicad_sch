@@ -1463,7 +1463,7 @@
   (symbol (lib_id "Device:R_US") (at 121.92 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01cffb28-b2e1-49a6-aba6-c80f5a845ddb)
-    (property "Reference" "R2" (at 124.46 136.525 0)
+    (property "Reference" "R1" (at 124.46 136.525 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 124.46 139.065 0)
@@ -1479,9 +1479,6 @@
     (pin "2" (uuid 1b18725a-d17a-485f-8ec6-3904d294c6c3))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "R2") (unit 1)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/1bbc3371-b7a7-47c3-b6ef-e4da4bb5ac32"
           (reference "R1") (unit 1)
         )
@@ -1522,9 +1519,6 @@
     (pin "8" (uuid 77c652ba-e3ae-4c89-a120-a0e99e361caf))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "U2") (unit 1)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/1bbc3371-b7a7-47c3-b6ef-e4da4bb5ac32"
           (reference "U2") (unit 1)
         )
@@ -1565,9 +1559,6 @@
     (pin "8" (uuid 13340763-0710-44b2-af72-a8b314a1a491))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "U2") (unit 5)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/1bbc3371-b7a7-47c3-b6ef-e4da4bb5ac32"
           (reference "U2") (unit 5)
         )
@@ -1593,9 +1584,6 @@
     (pin "1" (uuid eba975a1-7e63-4eda-9b9d-635c05d4d9dd))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/1bbc3371-b7a7-47c3-b6ef-e4da4bb5ac32"
           (reference "#PWR04") (unit 1)
         )
@@ -1606,7 +1594,7 @@
   (symbol (lib_id "power:GND") (at 139.7 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a516bd4-a859-411c-86d4-38db19cab426)
-    (property "Reference" "#PWR02" (at 139.7 67.31 0)
+    (property "Reference" "#PWR03" (at 139.7 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 66.04 0)
@@ -1621,9 +1609,6 @@
     (pin "1" (uuid 909ff491-d22f-4da6-8c0d-807ce8518182))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "#PWR02") (unit 1)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/1bbc3371-b7a7-47c3-b6ef-e4da4bb5ac32"
           (reference "#PWR03") (unit 1)
         )
@@ -1634,7 +1619,7 @@
   (symbol (lib_id "power:+3.3V") (at 135.89 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74ac10d8-335f-4242-894f-954a754ac954)
-    (property "Reference" "#PWR03" (at 135.89 44.45 0)
+    (property "Reference" "#PWR02" (at 135.89 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 135.89 36.83 0)
@@ -1649,9 +1634,6 @@
     (pin "1" (uuid 6e0206a3-2011-4cd1-b983-440dc78b7c1e))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "#PWR03") (unit 1)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/1bbc3371-b7a7-47c3-b6ef-e4da4bb5ac32"
           (reference "#PWR02") (unit 1)
         )
@@ -1692,9 +1674,6 @@
     (pin "8" (uuid ece29850-8246-4b89-9a5d-05e9c18d6b92))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "U2") (unit 2)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/1bbc3371-b7a7-47c3-b6ef-e4da4bb5ac32"
           (reference "U2") (unit 2)
         )
@@ -1720,9 +1699,6 @@
     (pin "1" (uuid c0db4717-e8cd-4831-9016-4d7efc6b2488))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/1bbc3371-b7a7-47c3-b6ef-e4da4bb5ac32"
           (reference "#PWR01") (unit 1)
         )
@@ -1763,9 +1739,6 @@
     (pin "8" (uuid d03a1462-faca-4e48-ab76-8144350891b4))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "U2") (unit 3)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/1bbc3371-b7a7-47c3-b6ef-e4da4bb5ac32"
           (reference "U2") (unit 3)
         )
@@ -1806,9 +1779,6 @@
     (pin "8" (uuid 5e5f1db0-793a-4dc3-8ce2-856628d2e820))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "U2") (unit 4)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/1bbc3371-b7a7-47c3-b6ef-e4da4bb5ac32"
           (reference "U2") (unit 4)
         )

@@ -628,7 +628,7 @@
   (symbol (lib_id "power:GND") (at 90.17 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 168476f4-120e-4ae8-9c05-0ff3f8ce5c29)
-    (property "Reference" "#PWR02" (at 90.17 142.24 0)
+    (property "Reference" "#PWR020" (at 90.17 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.17 140.97 0)
@@ -643,12 +643,6 @@
     (pin "1" (uuid eecf8b7f-1cae-4e54-b6b6-47980238e33d))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "#PWR02") (unit 1)
-        )
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/1bbc3371-b7a7-47c3-b6ef-e4da4bb5ac32"
-          (reference "#PWR03") (unit 1)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169/41cef170-d720-4ffc-8bb5-ffd3d8e0cf67"
           (reference "#PWR020") (unit 1)
         )
@@ -729,7 +723,7 @@
   (symbol (lib_id "power:+12V") (at 81.28 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b54c987-79f8-475d-bf9a-e6f0af30cbef)
-    (property "Reference" "#PWR04" (at 81.28 62.23 0)
+    (property "Reference" "#PWR028" (at 81.28 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 81.28 54.61 0)
@@ -744,12 +738,6 @@
     (pin "1" (uuid 0ee087cf-76d0-4493-9f4e-f6f47e7d8181))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/1bbc3371-b7a7-47c3-b6ef-e4da4bb5ac32"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169/41cef170-d720-4ffc-8bb5-ffd3d8e0cf67"
           (reference "#PWR028") (unit 1)
         )
@@ -824,9 +812,6 @@
     (pin "9" (uuid af05d188-1c12-49e3-acb1-ad90b91a4015))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "U4") (unit 1)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169/41cef170-d720-4ffc-8bb5-ffd3d8e0cf67"
           (reference "U4") (unit 1)
         )
@@ -886,7 +871,7 @@
   (symbol (lib_id "power:+12V") (at 74.93 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93c88e47-0fd3-4b9b-80e8-4e593140dca8)
-    (property "Reference" "#PWR04" (at 74.93 62.23 0)
+    (property "Reference" "#PWR025" (at 74.93 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 74.93 54.61 0)
@@ -901,12 +886,6 @@
     (pin "1" (uuid be718762-029a-4a01-a2f6-fc0ff05d9f2d))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/1bbc3371-b7a7-47c3-b6ef-e4da4bb5ac32"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169/41cef170-d720-4ffc-8bb5-ffd3d8e0cf67"
           (reference "#PWR025") (unit 1)
         )
@@ -966,7 +945,7 @@
   (symbol (lib_id "power:+12V") (at 49.53 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95df7c5c-353e-47b7-a0d3-fcc39faa3077)
-    (property "Reference" "#PWR04" (at 49.53 60.96 0)
+    (property "Reference" "#PWR034" (at 49.53 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 49.53 53.34 0)
@@ -981,12 +960,6 @@
     (pin "1" (uuid 7e80cf76-08e5-48f8-90a7-48a410c14179))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/1bbc3371-b7a7-47c3-b6ef-e4da4bb5ac32"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169/41cef170-d720-4ffc-8bb5-ffd3d8e0cf67"
           (reference "#PWR034") (unit 1)
         )
@@ -1003,7 +976,7 @@
   (symbol (lib_id "power:GND") (at 49.53 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2dd5137-f2d1-476c-9b38-025249e09b5f)
-    (property "Reference" "#PWR02" (at 49.53 80.01 0)
+    (property "Reference" "#PWR037" (at 49.53 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.53 78.74 0)
@@ -1018,12 +991,6 @@
     (pin "1" (uuid b5e43850-7eab-485c-a1b3-f7583a7a21bd))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "#PWR02") (unit 1)
-        )
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/1bbc3371-b7a7-47c3-b6ef-e4da4bb5ac32"
-          (reference "#PWR03") (unit 1)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169/41cef170-d720-4ffc-8bb5-ffd3d8e0cf67"
           (reference "#PWR037") (unit 1)
         )
@@ -1072,7 +1039,7 @@
   (symbol (lib_id "power:+12V") (at 90.17 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e017f3df-0842-4f2a-9fc2-fa56a55d457a)
-    (property "Reference" "#PWR04" (at 90.17 55.88 0)
+    (property "Reference" "#PWR019" (at 90.17 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 90.17 48.26 0)
@@ -1087,12 +1054,6 @@
     (pin "1" (uuid 7e58e892-452e-4efc-a1f8-363d68409420))
     (instances
       (project "nixie_clock_rev2"
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169"
-          (reference "#PWR04") (unit 1)
-        )
-        (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/1bbc3371-b7a7-47c3-b6ef-e4da4bb5ac32"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/0fc2f476-9e20-4198-a623-ece581a79a9a/793331c8-0196-4fce-8ed4-8422aae7d169/41cef170-d720-4ffc-8bb5-ffd3d8e0cf67"
           (reference "#PWR019") (unit 1)
         )

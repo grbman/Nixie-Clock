@@ -503,6 +503,10 @@
     [
       "8286340d-8008-41e2-9109-238159cda3d4",
       "HV_Supply"
+    ],
+    [
+      "6db3ac9b-47e8-49b4-8c1c-f40362e98840",
+      "3V3 supply"
     ]
   ],
   "text_variables": {}
