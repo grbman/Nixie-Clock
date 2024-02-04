@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "nixie_lib")(type "KiCad")(uri "${KIPRJMOD}/nixie_lib.pretty")(options "")(descr ""))
+)
