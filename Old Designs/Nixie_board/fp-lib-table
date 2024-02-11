@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name tubes)(type KiCad)(uri "$(KIPRJMOD)/tubes.pretty")(options "")(descr ""))
+  (lib (name Power_Integrations)(type KiCad)(uri /Users/gregbaghdikian/Downloads/Power_Integrations.pretty)(options "")(descr ""))
+)

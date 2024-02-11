@@ -1,0 +1,233 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:nixie_board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR05
+U 1 1 594C4C21
+P 5225 4000
+F 0 "#PWR05" H 5225 3750 50  0001 C CNN
+F 1 "GND" H 5225 3850 50  0000 C CNN
+F 2 "" H 5225 4000 50  0001 C CNN
+F 3 "" H 5225 4000 50  0001 C CNN
+	1    5225 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR06
+U 1 1 594C4C38
+P 4675 2775
+F 0 "#PWR06" H 4675 2625 50  0001 C CNN
+F 1 "+5V" H 4675 2915 50  0000 C CNN
+F 2 "" H 4675 2775 50  0001 C CNN
+F 3 "" H 4675 2775 50  0001 C CNN
+	1    4675 2775
+	1    0    0    -1  
+$EndComp
+Text HLabel 4725 3500 0    60   Input ~ 0
+RX
+Text HLabel 4725 3400 0    60   Input ~ 0
+TX
+Text Notes 3725 2800 0    60   ~ 0
+Bypass caps??????
+$Comp
+L R R19
+U 1 1 594C4D37
+P 4250 3500
+F 0 "R19" V 4330 3500 50  0000 C CNN
+F 1 "10k" V 4250 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4180 3500 50  0001 C CNN
+F 3 "" H 4250 3500 50  0001 C CNN
+	1    4250 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR07
+U 1 1 594C4D7C
+P 4250 3250
+F 0 "#PWR07" H 4250 3100 50  0001 C CNN
+F 1 "+5V" H 4250 3390 50  0000 C CNN
+F 2 "" H 4250 3250 50  0001 C CNN
+F 3 "" H 4250 3250 50  0001 C CNN
+	1    4250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x02 J1
+U 1 1 594C4DA1
+P 7075 3600
+F 0 "J1" H 7075 3850 50  0000 C TNN
+F 1 "Screw_Terminal_1x02" V 6925 3600 50  0000 C TNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 7075 3375 50  0001 C CNN
+F 3 "" H 7050 3600 50  0001 C CNN
+	1    7075 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MMBT3904 Q6
+U 1 1 59BB5F29
+P 4150 4100
+F 0 "Q6" H 4350 4175 50  0000 L CNN
+F 1 "MMBT3904" H 4350 4100 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4350 4025 50  0001 L CIN
+F 3 "" H 4150 4100 50  0001 L CNN
+	1    4150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR08
+U 1 1 59BB61FB
+P 3600 4050
+F 0 "#PWR08" H 3600 3900 50  0001 C CNN
+F 1 "+3.3V" H 3600 4190 50  0000 C CNN
+F 2 "" H 3600 4050 50  0001 C CNN
+F 3 "" H 3600 4050 50  0001 C CNN
+	1    3600 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R32
+U 1 1 59BB621E
+P 3750 4100
+F 0 "R32" V 3830 4100 50  0000 C CNN
+F 1 "1k" V 3750 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3680 4100 50  0001 C CNN
+F 3 "" H 3750 4100 50  0001 C CNN
+	1    3750 4100
+	0    1    1    0   
+$EndComp
+Text HLabel 4150 4525 0    60   Input ~ 0
+~STANDBY
+Text Label 5950 3500 0    60   ~ 0
+CAN+
+Text Label 5950 3700 0    60   ~ 0
+CAN-
+$Comp
+L MCP2561-H/P U5
+U 1 1 59DFA0E1
+P 5225 3600
+F 0 "U5" H 4825 3950 50  0000 L CNN
+F 1 "MCP2561-H/P" H 5325 3950 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm" H 5225 3100 50  0001 C CIN
+F 3 "" H 5225 3600 50  0001 C CNN
+	1    5225 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3650 4250 3900
+Wire Wire Line
+	4250 3250 4250 3350
+Wire Wire Line
+	3600 4100 3600 4050
+Wire Wire Line
+	3900 4100 3950 4100
+Wire Wire Line
+	4150 4525 4250 4525
+Wire Wire Line
+	4250 4525 4250 4300
+Wire Wire Line
+	6525 3350 7275 3350
+Wire Wire Line
+	7275 3350 7275 3500
+Wire Wire Line
+	6525 3900 7275 3900
+Wire Wire Line
+	7275 3900 7275 3700
+Connection ~ 6675 3350
+Wire Wire Line
+	6675 3750 6675 3900
+Connection ~ 6675 3900
+Wire Wire Line
+	4725 3800 4250 3800
+Connection ~ 4250 3800
+Wire Wire Line
+	5725 3700 6525 3700
+Wire Wire Line
+	6525 3350 6525 3500
+Wire Wire Line
+	6525 3700 6525 3900
+Wire Wire Line
+	6525 3500 5725 3500
+$Comp
+L R R20
+U 1 1 594C4E90
+P 6675 3600
+F 0 "R20" V 6755 3600 50  0000 C CNN
+F 1 "120" V 6675 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6605 3600 50  0001 C CNN
+F 3 "" H 6675 3600 50  0001 C CNN
+	1    6675 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6675 3450 6675 3350
+NoConn ~ 5725 3600
+$Comp
+L C C4
+U 1 1 59E3F800
+P 4675 2925
+F 0 "C4" H 4700 3025 50  0000 L CNN
+F 1 "0.1uF" H 4700 2825 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4713 2775 50  0001 C CNN
+F 3 "" H 4675 2925 50  0001 C CNN
+	1    4675 2925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 2775 5225 2775
+Wire Wire Line
+	5225 2775 5225 3200
+Connection ~ 4675 2775
+$Comp
+L GND #PWR09
+U 1 1 59E3F93B
+P 4675 3075
+F 0 "#PWR09" H 4675 2825 50  0001 C CNN
+F 1 "GND" H 4675 2925 50  0000 C CNN
+F 2 "" H 4675 3075 50  0001 C CNN
+F 3 "" H 4675 3075 50  0001 C CNN
+	1    4675 3075
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

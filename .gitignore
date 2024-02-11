@@ -29,3 +29,8 @@ fp-info-cache
 *.csv
 
 .DS_Store
+
+
+# Ltspice
+*.raw
+*.log

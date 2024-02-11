@@ -1,0 +1,250 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:nixie_board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM7805 U12
+U 1 1 597EA654
+P 3750 1950
+F 0 "U12" H 3900 1754 50  0000 C CNN
+F 1 "LM7805" H 3750 2150 50  0000 C CNN
+F 2 "Power_Integrations:TO-220" H 3750 1950 50  0001 C CNN
+F 3 "" H 3750 1950 50  0001 C CNN
+	1    3750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR010
+U 1 1 597EA6D9
+P 4650 1800
+F 0 "#PWR010" H 4650 1650 50  0001 C CNN
+F 1 "+5V" H 4650 1940 50  0000 C CNN
+F 2 "" H 4650 1800 50  0001 C CNN
+F 3 "" H 4650 1800 50  0001 C CNN
+	1    4650 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR011
+U 1 1 597EA6F0
+P 3050 1800
+F 0 "#PWR011" H 3050 1650 50  0001 C CNN
+F 1 "+12V" H 3050 1940 50  0000 C CNN
+F 2 "" H 3050 1800 50  0001 C CNN
+F 3 "" H 3050 1800 50  0001 C CNN
+	1    3050 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 597EA707
+P 3600 2300
+F 0 "#PWR012" H 3600 2050 50  0001 C CNN
+F 1 "GND" H 3600 2150 50  0000 C CNN
+F 2 "" H 3600 2300 50  0001 C CNN
+F 3 "" H 3600 2300 50  0001 C CNN
+	1    3600 2300
+	1    0    0    -1  
+$EndComp
+Text Notes 3300 1400 0    60   ~ 0
+5V supply
+$Comp
+L C C3
+U 1 1 597EA922
+P 4500 2050
+F 0 "C3" H 4525 2150 50  0000 L CNN
+F 1 "0.1uF" H 4525 1950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4538 1900 50  0001 C CNN
+F 3 "" H 4500 2050 50  0001 C CNN
+	1    4500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 597EA972
+P 4250 2050
+F 0 "C2" H 4275 2150 50  0000 L CNN
+F 1 "10uF" H 4275 1950 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 4250 2050 50  0001 C CNN
+F 3 "" H 4250 2050 50  0001 C CNN
+	1    4250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C1
+U 1 1 597EA9A5
+P 3250 2050
+F 0 "C1" H 3275 2150 50  0000 L CNN
+F 1 "10uF" H 3275 1950 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 3250 2050 50  0001 C CNN
+F 3 "" H 3250 2050 50  0001 C CNN
+	1    3250 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2300 3600 2200
+Wire Wire Line
+	4150 1900 4650 1900
+Connection ~ 4250 1900
+Wire Wire Line
+	4650 1900 4650 1800
+Connection ~ 4500 1900
+Wire Wire Line
+	3050 1900 3350 1900
+Wire Wire Line
+	3050 1900 3050 1800
+Connection ~ 3250 1900
+Wire Wire Line
+	3250 2200 4500 2200
+Connection ~ 3600 2200
+Connection ~ 3750 2200
+Connection ~ 4250 2200
+$Comp
+L +12V #PWR013
+U 1 1 597EACE1
+P 7300 1550
+F 0 "#PWR013" H 7300 1400 50  0001 C CNN
+F 1 "+12V" H 7300 1690 50  0000 C CNN
+F 2 "" H 7300 1550 50  0001 C CNN
+F 3 "" H 7300 1550 50  0001 C CNN
+	1    7300 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 597EAD04
+P 7300 2450
+F 0 "#PWR014" H 7300 2200 50  0001 C CNN
+F 1 "GND" H 7300 2300 50  0000 C CNN
+F 2 "" H 7300 2450 50  0001 C CNN
+F 3 "" H 7300 2450 50  0001 C CNN
+	1    7300 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1700 7300 2450
+Wire Wire Line
+	7300 2300 7750 2300
+Wire Wire Line
+	7300 1700 7750 1700
+Connection ~ 7300 2300
+Wire Wire Line
+	7300 1550 7300 1600
+Wire Wire Line
+	7300 1600 7750 1600
+$Comp
+L R R21
+U 1 1 597EAD8B
+P 7500 2100
+F 0 "R21" V 7580 2100 50  0000 C CNN
+F 1 "680" V 7500 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7430 2100 50  0001 C CNN
+F 3 "" H 7500 2100 50  0001 C CNN
+	1    7500 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 2100 7350 2100
+Connection ~ 7300 2100
+Wire Wire Line
+	7650 2100 7750 2100
+Text HLabel 7100 2000 0    60   Output ~ 0
+170HV
+Wire Wire Line
+	7100 2000 7750 2000
+Text Notes 7100 1300 0    60   ~ 0
+Pile-o-poo 170V supply
+$Comp
+L pile-o-poo_HV U13
+U 1 1 59B0EEFF
+P 7950 1600
+F 0 "U13" H 8000 1750 60  0000 C CNN
+F 1 "pile-o-poo_HV" H 8150 800 60  0000 C CNN
+F 2 "tubes:pile_o_poo" H 7950 1600 60  0001 C CNN
+F 3 "" H 7950 1600 60  0001 C CNN
+	1    7950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Barrel_Jack J2
+U 1 1 59B38F6A
+P 2675 3075
+F 0 "J2" H 2675 3285 50  0000 C CNN
+F 1 "Barrel_Jack" H 2675 2900 50  0000 C CNN
+F 2 "tubes:barrel_jack" H 2725 3035 50  0001 C CNN
+F 3 "" H 2725 3035 50  0001 C CNN
+	1    2675 3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 59B39027
+P 2975 3275
+F 0 "#PWR015" H 2975 3025 50  0001 C CNN
+F 1 "GND" H 2975 3125 50  0000 C CNN
+F 2 "" H 2975 3275 50  0001 C CNN
+F 3 "" H 2975 3275 50  0001 C CNN
+	1    2975 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR016
+U 1 1 59B39050
+P 2975 2850
+F 0 "#PWR016" H 2975 2700 50  0001 C CNN
+F 1 "+12V" H 2975 2990 50  0000 C CNN
+F 2 "" H 2975 2850 50  0001 C CNN
+F 3 "" H 2975 2850 50  0001 C CNN
+	1    2975 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2975 2975 2975 2850
+Wire Wire Line
+	2975 3075 2975 3275
+Connection ~ 2975 3175
+NoConn ~ 7750 1800
+NoConn ~ 7750 1900
+NoConn ~ 7750 2200
+$EndSCHEMATC

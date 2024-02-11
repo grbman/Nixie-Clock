@@ -1,0 +1,64 @@
+Source:	/Users/gregbaghdikian/Documents/test/test.sch
+Date:	Saturday, September 30, 2017 'PMt' 10:29:44 PM
+Tool:	Eeschema 4.0.7
+Component Count:	59
+Ref	Value	Part	Footprint	Description	Vendor
+C1	10uF	device:CP1	Capacitors_THT:CP_Radial_D5.0mm_P2.00mm	Polarised capacitor	
+C2	10uF	device:CP1	Capacitors_THT:CP_Radial_D5.0mm_P2.00mm	Polarised capacitor	
+C3	0.1uF	device:C	Capacitors_SMD:C_0805_HandSoldering	Unpolarized capacitor	
+J1	Screw_Terminal_1x02	test-cache:Screw_Terminal_1x02	Connectors_Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol		
+J2	Barrel_Jack	conn:Barrel_Jack	tubes:barrel_jack	DC Barrel Jack	
+N1	IN-14	nixie:IN-14	tubes:in-14		
+N2	IN-14	nixie:IN-14	tubes:in-14		
+N3	IN-14	nixie:IN-14	tubes:in-14		
+N4	IN-14	nixie:IN-14	tubes:in-14		
+N5	IN-14	nixie:IN-14	tubes:in-14		
+N6	IN-14	nixie:IN-14	tubes:in-14		
+Q1	MMBT3904	transistors:MMBT3904	TO_SOT_Packages_SMD:SOT-23		
+Q2	MMBT3904	transistors:MMBT3904	TO_SOT_Packages_SMD:SOT-23		
+Q3	MMBT3904	transistors:MMBT3904	TO_SOT_Packages_SMD:SOT-23		
+Q4	MMBT3904	transistors:MMBT3904	TO_SOT_Packages_SMD:SOT-23		
+Q5	MMBT3904	transistors:MMBT3904	TO_SOT_Packages_SMD:SOT-23		
+Q6	MMBT3904	transistors:MMBT3904	TO_SOT_Packages_SMD:SOT-23		
+R1	100k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R2	100k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R3	22k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R4	100k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R5	100k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R6	22k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R7	100k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R8	100k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R9	22k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R10	100k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R11	100k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R12	22k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R13	100k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R14	100k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R15	22k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R16	100k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R17	100k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R18	22k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R19	10k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R20	120	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R21	680	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R22	91k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R23	4.7k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R24	91k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R25	4.7k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R26	91k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R27	4.7k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R28	91k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R29	4.7k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R30	91k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R31	4.7k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+R32	1k	device:R	Resistors_SMD:R_0805_HandSoldering	Resistor	
+SW1	SW_Push_Dual	switches:SW_Push_Dual	Buttons_Switches_THT:SW_PUSH_6mm		
+SW2	SW_Push_Dual	switches:SW_Push_Dual	Buttons_Switches_THT:SW_PUSH_6mm		
+SW3	SW_Push_Dual	switches:SW_Push_Dual	Buttons_Switches_THT:SW_PUSH_6mm		
+U1	teensy_3_2	nixie_lib:teensy_3_2	tubes:teensy_3.2		
+U2	HV5622PG	nixie_lib:HV5622PG	tubes:LQFP-44_Gullwing	High voltage 32 bit shift register	
+U3	HV5622PG	nixie_lib:HV5622PG	tubes:LQFP-44_Gullwing	High voltage 32 bit shift register	
+U4	HV5622PG	nixie_lib:HV5622PG	tubes:LQFP-44_Gullwing	High voltage 32 bit shift register	
+U11	MCP2551	eelib:MCP2551	Housings_DIP:DIP-8_W7.62mm	5V CAN Transceiver	
+U12	LM7805	test-cache:LM7805	Power_Integrations:TO-220		
+U13	pile-o-poo_HV	nixie_lib:pile-o-poo_HV	Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm		
